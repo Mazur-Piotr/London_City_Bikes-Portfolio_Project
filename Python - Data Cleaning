@@ -2,17 +2,13 @@
 London City Bikes Data Cleaning and Transformation
 /*
 
-# Import the pandas library
-# Pip install pandas
+# Import necessary modules
 
 import pandas as pd 
-
-# Import zipfile
-
 import zipfile 
 import os
 
-# Zipfile indication
+# Setting Working Directories
 
 path = 'D:\PythonVS\data'
 os.chdir(path)
