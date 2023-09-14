@@ -5,5 +5,7 @@ This Python and Tableau project involves data preprocessing using Python to clea
 
 In Tableau, I created an interactive dashboard featuring a calendar widget as the main filter. The dashboard includes multiple visuals such as a line chart, histograms, a map, and a heatmap, all based on previously generated data. Users can control the moving average interactively in the final dashboard.
 
+https://public.tableau.com/app/profile/piotr.mazur/viz/Portfolio_Project-London_City_Bikes/DashboardSummary
+
 # Key Insights:
 The project yielded valuable insights into London bike users, ride trends with a focus on moving averages, and the correlation between temperature and wind speed with ride patterns.
