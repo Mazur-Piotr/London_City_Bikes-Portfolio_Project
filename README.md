@@ -17,8 +17,8 @@ This project focuses on the thorough cleaning and transformation of London City 
 - Mapped numeric codes to meaningful season and weather descriptions.
 - Transformed and cleaned data for further analysis.
 ### 3. Data Visualization
-- Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
 - Prepared the final transformed dataset for visualization by exporting it to an Excel file.
+- Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
 ## Technologies Used
 - Python
 - Pandas
