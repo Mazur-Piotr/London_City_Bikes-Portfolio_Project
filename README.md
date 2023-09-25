@@ -3,7 +3,8 @@
 This project focuses on the thorough cleaning and transformation of London City Bikes data. The main objective is to prepare the dataset for further analysis and visualization by addressing data quality issues and refining column values.
 
 ## Project Structure
-### 1. Data Import and Cleaning
+### 1. Extracted Dataset from Kaggle
+### 2. Data Import and Cleaning
 - Imported essential Python modules, including Pandas, Zipfile, and OS.
 - Configured the working directory for data handling.
 - Extracted data from the downloaded zip file.
@@ -16,9 +17,9 @@ This project focuses on the thorough cleaning and transformation of London City 
 - Converted data types of 'season' and 'weather' columns to strings.
 - Mapped numeric codes to meaningful season and weather descriptions.
 - Transformed and cleaned data for further analysis.
-- Loaded data to Tableau.
-### 3. Data Visualization
 - Prepared the final transformed dataset for visualization by exporting it to an Excel file.
+### 3. Loaded Data to Tableau 
+### 4. Data Visualization
 - Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
 ## Technologies Used
 - Python
