@@ -1,11 +1,27 @@
-# London_City_Bikes-Portfolio_Project
+# London City Bikes Data Cleaning and Transformation
+## Overview
+This project focuses on the thorough cleaning and transformation of London City Bikes data. The main objective is to prepare the dataset for further analysis and visualization by addressing data quality issues and refining column values.
 
-# Project Description:
-This Python and Tableau project involves data preprocessing using Python to clean and transform raw bike-sharing data. The steps include column renaming and mapping numeric codes to descriptive values. The cleaned data is exported to an Excel file for further analysis and visualization.
-
-In Tableau, I created an interactive dashboard featuring a calendar widget as the main filter. The dashboard includes multiple visuals such as a line chart, histograms, a map, and a heatmap, all based on previously generated data. Users can control the moving average interactively in the final dashboard.
-
-https://public.tableau.com/app/profile/piotr.mazur/viz/Portfolio_Project-London_City_Bikes/DashboardSummary
-
-# Key Insights:
-The project yielded valuable insights into London bike users, ride trends with a focus on moving averages, and the correlation between temperature and wind speed with ride patterns.
+## Project Structure
+### 1. Data Import and Cleaning
+- Imported essential Python modules, including Pandas, Zipfile, and OS.
+- Configured the working directory for data handling.
+- Extracted data from the downloaded zip file.
+- Loaded the bike-sharing data from a CSV file into a Pandas DataFrame.
+- Conducted initial data exploration, including checking data types and null values.
+### 2. Data Transformation
+- Renamed columns for improved clarity and understanding.
+- Adjusted humidity values to a percentage format (between 0 and 1).
+- Created dictionaries to map numeric codes to descriptive values for the 'season' and 'weather' columns.
+- Converted data types of 'season' and 'weather' columns to strings.
+- Mapped numeric codes to meaningful season and weather descriptions.
+- Transformed and cleaned data for further analysis.
+### 3. Data Visualization
+- Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
+- Prepared the final transformed dataset for visualization by exporting it to an Excel file.
+## Technologies Used
+- Python
+- Pandas
+- Tableau
+## Usage
+This project provides a foundational understanding of the data cleaning and transformation process required for subsequent data analysis and visualization tasks related to London City Bikes data
