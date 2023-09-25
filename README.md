@@ -16,6 +16,7 @@ This project focuses on the thorough cleaning and transformation of London City 
 - Converted data types of 'season' and 'weather' columns to strings.
 - Mapped numeric codes to meaningful season and weather descriptions.
 - Transformed and cleaned data for further analysis.
+- Loaded data to Tableau.
 ### 3. Data Visualization
 - Prepared the final transformed dataset for visualization by exporting it to an Excel file.
 - Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
