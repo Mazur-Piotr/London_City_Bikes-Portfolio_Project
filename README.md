@@ -22,8 +22,7 @@ This project focuses on the thorough cleaning and transformation of London City 
 ### 5. Data Visualization
 - Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
 ## Technologies Used
-- Python
-- Pandas
+- Python: Pandas, Zipfile, OS 
 - Tableau
 ## Usage
 This project provides a foundational understanding of the data cleaning and transformation process required for subsequent data analysis and visualization tasks related to London City Bikes data
