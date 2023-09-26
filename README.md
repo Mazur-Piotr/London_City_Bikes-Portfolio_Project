@@ -42,7 +42,6 @@ The dataset consists of historical data for bike sharing in London 'Powered by T
   
   ![image](https://github.com/Mazur-Piotr/London_City_Bikes-Portfolio_Project/assets/138219323/2c1b2512-6048-4fb6-a5cd-9628a213ae85)
 
-  <br>
 ## Technologies Used
 - Python: Pandas, Zipfile, OS 
 - Tableau
