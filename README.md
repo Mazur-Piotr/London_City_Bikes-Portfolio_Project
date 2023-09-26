@@ -38,9 +38,7 @@ The dataset consists of historical data for bike sharing in London 'Powered by T
 ### 4. Loaded Data to Tableau 
 ### 5. Data Visualization
 - Utilized data visualization tools such as Tableau to create insightful visualizations (not included in this code snippet).
-- Used advanced methods, such as Creating Calculated Fields and Paramateres to create Moving Avarage Period with period customized by user.
-  
-  <br>
+- Used advanced methods, such as Creating Calculated Fields and Paramateres to create Moving Avarage Period with period customized by the user.
 
   ![image](https://github.com/Mazur-Piotr/London_City_Bikes-Portfolio_Project/assets/138219323/2c1b2512-6048-4fb6-a5cd-9628a213ae85)
 
