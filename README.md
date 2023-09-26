@@ -1,6 +1,23 @@
 # London City Bikes Data Cleaning and Transformation
 ## Overview
 This project focuses on the thorough cleaning and transformation of London City Bikes data. The main objective is to prepare the dataset for further analysis and visualization by addressing data quality issues and refining column values.
+## Dataset
+Dataset Source: Kaggle - <br>
+https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset <br> <br>
+The dataset consists of historical data for bike sharing in London 'Powered by TfL Open Data'.
+
+| Column        | Non-Null Count | Dtype    |
+| ------------- | --------------- | ------- |
+| timestamp     | 17414 non-null | object  |
+| cnt           | 17414 non-null | int64   |
+| t1            | 17414 non-null | float64 |
+| t2            | 17414 non-null | float64 |
+| hum           | 17414 non-null | float64 |
+| wind_speed    | 17414 non-null | float64 |
+| weather_code  | 17414 non-null | float64 |
+| is_holiday    | 17414 non-null | float64 |
+| is_weekend    | 17414 non-null | float64 |
+| season        | 17414 non-null | float64 |
 
 ## Project Structure
 ### 1. Extracted Dataset from Kaggle
@@ -9,7 +26,7 @@ This project focuses on the thorough cleaning and transformation of London City 
 - Configured the working directory for data handling.
 - Extracted data from the downloaded zip file.
 - Loaded the bike-sharing data from a CSV file into a Pandas DataFrame.
-- Conducted initial data exploration, including checking data types and null values.
+- Conducted initial data exploration, including checking data types and null values, using .shape, .info., value_counts().
 ### 3. Data Transformation
 - Renamed columns for improved clarity and understanding.
 - Adjusted humidity values to a percentage format (between 0 and 1).
